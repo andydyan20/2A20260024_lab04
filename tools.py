@@ -167,7 +167,6 @@ def calculate_budget(total_budget: int, expenses: str) -> str:
     # - Nếu âm -> "Vượt ngân sách X đồng! Cần điều chỉnh."
     # - Xử lý lỗi: nếu expenses format sai -> trả về thông báo lỗi rõ ràng
     
-    
     try:
         total_expense = 0
         detail_lines = []
